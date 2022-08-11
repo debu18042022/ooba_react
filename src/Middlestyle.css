@@ -1,0 +1,37 @@
+
+
+.middle_main_container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.middle_main_container_left{
+    text-align: start;
+    padding: 10px;
+    width: 300px;
+}
+
+.middle_main_container_right{
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.middle_right_circle img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+}
+
+.middle_main_container_right p{
+    color:rgb(131, 133, 134);
+}
+
+.middle_main_container_left{
+    color:rgb(131, 133, 134);
+}
+
+.heading{
+    color:black;
+}

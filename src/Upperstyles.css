@@ -1,0 +1,82 @@
+.main_container{
+    background-color:rgb(103, 192, 64);
+    color: white;
+}
+
+.container{
+    padding: 5vw;
+}
+
+.ooba_text{
+    font-size:4.5vw;
+    display: grid;
+    place-items: center; 
+}
+
+.ooba_text img{
+    width:20vw;
+}
+.heping_text{
+    font-size: 1.8vw;
+    margin-bottom:50px;
+    display: grid;
+    place-items: center;
+}
+.container{
+    display: grid;
+    place-items: center;
+}
+
+.sub_container{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    flex-wrap: wrap;
+}
+
+.para_container{
+    width:430px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.right_container{
+    background-color:  rgb(97, 168, 65)
+   
+}
+
+.right_container_div{
+    width:40vw;
+    margin: 5px;
+    padding: 2vw;
+}
+
+.sub_right_container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.sub_right_container input{
+    width:18vw;
+}
+
+.sub_right_container p{
+    font-size:1.2vw;
+}
+
+.sub_right_container div{
+    font-size:0.8rem;  
+} 
+
+.subb_right_container{
+   
+    font-size: 0.8rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.PREQUALIFY_ME_BUTTON{
+    float: left;
+}

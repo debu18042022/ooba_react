@@ -1,0 +1,61 @@
+.main_bottom_first_container{
+    background-color:rgb(228, 232, 235);
+}
+
+.Reasons_to_use_ooba{
+    display: grid;
+    place-items: center;
+    color:rgb(131, 133, 134);
+}
+
+.parent_container{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+.parent_container1{
+    width: 780px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.single_container{
+    width: 150px;
+    height: 140px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.internal_container{
+    width: 150px;
+    height: 140px; 
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: white;
+    background-color: rgb(103,192,64);
+}
+
+.internal_container i{
+   font-size: 3.5vw;
+   color: white;
+}
+
+@media screen and (max-width: 480px) {
+    .parent_container1{
+        width: 780px;
+        display: grid;
+        place-items: center;
+    }
+  }
+
+  .Reasons_to_use_ooba button{
+   margin-top: 20px;
+   margin-bottom: 20px;
+   background-color:rgb(231, 93, 143);
+   color: white;
+  }

@@ -1,0 +1,25 @@
+.bottom_third_parent{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.bottom_third_child{
+    text-align: start;
+    color:white;
+}
+
+.bottom_third_child p{
+    margin: 0px;
+    font-size: 0.9rem;
+}
+
+#bottom_third_text div{    
+    margin-top: 50px;
+}
+
+#bottom_third_text div p{
+    font-size: 0.9rem;
+}
