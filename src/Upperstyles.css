@@ -14,7 +14,7 @@
 }
 
 .ooba_text img{
-    width:20vw;
+    width:25vw;
 }
 .heping_text{
     font-size: 1.8vw;
@@ -38,11 +38,11 @@
     width:430px;
     text-align: center;
     font-size: 0.8rem;
+    align-items: center;
 }
 
 .right_container{
     background-color:  rgb(97, 168, 65)
-   
 }
 
 .right_container_div{
@@ -79,5 +79,25 @@
 
 .PREQUALIFY_ME_BUTTON{
     float: left;
-    /* border:"1px solid black"; */
 }
+
+@media only screen and (max-width: 600px) {
+    .para_container{
+        width:90vw;
+        text-align: center;
+        font-size: 0.8rem;
+        align-items: center;
+    }
+    
+    .right_container{
+        background-color:  rgb(97, 168, 65);
+    }
+
+    .ooba_text img{
+        width:37vw;
+    }
+
+    .heping_text h4{
+        font-size: 2.3vw;
+    }
+  }

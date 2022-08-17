@@ -5,13 +5,10 @@ function UpperComponent() {
     <div className="main_container">
       <div className="sub_main-container">
         <div className="ooba_text">
-          <img
-            src="https://play-lh.googleusercontent.com/lWSvfTQeTin68SxALC95Cqclsxaavo1xj9GHmGz77IuF5LOkUyFiNqPySyKerjxmQAo"
-            alt=""
-          />
+          <img src="homesooba.png" alt="" />
         </div>
         <div className="heping_text">
-          <p>Get a helping hand with your home loan</p>
+          <h4>Get a helping hand with your home loan</h4>
         </div>
         <div className="container">
           <div className="sub_container">

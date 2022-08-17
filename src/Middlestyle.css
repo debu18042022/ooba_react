@@ -30,7 +30,12 @@
 
 .middle_main_container_left{
     color:rgb(131, 133, 134);
+    font-size: 0.8rem;
 }
+
+/* .middle_main_container_left .stmt{
+    font-size: 0.8rem;
+} */
 
 .heading{
     color:black;
